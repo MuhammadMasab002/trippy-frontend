@@ -87,7 +87,7 @@ const SignUp = () => {
     });
 
     // Redirect to login
-    navigate("/login");
+    navigate("/signin");
   };
 
   return (
@@ -160,7 +160,7 @@ const SignUp = () => {
                 variant={BUTTON_VARIANTS.TEXT_PRIMARY}
                 className="!py-0 !px-1"
                 fullWidth={false}
-                onClick={() => navigate("/login")}
+                onClick={() => navigate("signin")}
               />
             </div>
           </form>

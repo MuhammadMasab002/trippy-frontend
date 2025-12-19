@@ -12,7 +12,7 @@ function App() {
         <Route element={<MainLayout />}>
           <Route path="/" element={<Home />} />
 
-          <Route path="/login" element={<SignIn />} />
+          <Route path="/signin" element={<SignIn />} />
           <Route path="/signup" element={<SignUp />} />
 
           {/* Catch-all route for 404 */}

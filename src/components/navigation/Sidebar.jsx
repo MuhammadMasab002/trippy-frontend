@@ -22,8 +22,8 @@ const Sidebar = ({ isOpen, onClose }) => {
       >
         {/* Header */}
         <div className="flex items-center justify-between px-4 h-16 border-b">
-          <h2 className="text-lg font-bold">
-            Logo<span className="text-primary">here</span>
+          <h2 className="text-2xl font-bold">
+            Trippy<span className="text-primary">.</span>
           </h2>
           <button
             onClick={onClose}
@@ -41,7 +41,7 @@ const Sidebar = ({ isOpen, onClose }) => {
               to={item.path}
               onClick={onClose}
               className={({ isActive }) =>
-                `px-4 py-3 rounded-lg text-sm font-medium transition
+                `px-4 py-3 rounded-lg text-base font-medium transition
                 ${
                   isActive
                     ? "bg-primary/10 text-primary"
