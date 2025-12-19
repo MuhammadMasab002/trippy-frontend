@@ -11,9 +11,8 @@ const Header = () => {
 
   return (
     <>
-      {/* <header className="fixed top-10 left-10 right-10 rounded-2xl z-50 w-full bg-white/80 backdrop-blur shadow-xl"> */}
-      <header className="w-full bg-red-200">
-        <div className="px-4 sm:px-6 lg:px-8 fixed top-8 left-10 right-10 rounded-2xl z-50 bg-white/80 backdrop-blur shadow-xl">
+      <header className="w-full">
+        <div className="px-4 sm:px-6 lg:px-8 fixed top-8 left-6 md:left-20 right-6 md:right-20 rounded-xl md:rounded-2xl z-50 bg-white/80 backdrop-blur shadow-xl">
           <div className="flex h-16 items-center justify-between">
             {/* Left: Menu + Logo */}
             <div className="flex items-center gap-3">
