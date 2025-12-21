@@ -91,7 +91,7 @@ const SignUp = () => {
   };
 
   return (
-    <div className="w-full min-h-screen grid grid-cols-1">
+    <div className="w-full min-h-screen grid grid-cols-1 mt-10">
       <div className="flex items-center justify-center py-10 px-6">
         <div className="w-full max-w-md">
           <h2 className="text-4xl font-bold text-left text-black mb-8">
@@ -160,7 +160,9 @@ const SignUp = () => {
                 variant={BUTTON_VARIANTS.TEXT_PRIMARY}
                 className="!py-0 !px-1"
                 fullWidth={false}
-                onClick={() => navigate("signin")}
+                onClick={() => {
+                  window.location.assign("/signin");
+                }}
               />
             </div>
           </form>

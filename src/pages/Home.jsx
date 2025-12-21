@@ -31,7 +31,11 @@ const destinationContent = [
 function Home() {
   return (
     <div className="w-full">
-      <Hero />
+      <Hero
+      page="home"
+        title="Your Journey Your Story"
+        heroImage="url('/src/assets/12.jpg')"
+      />
       <div className="container w-full max-w-7xl mx-auto px-4 my-6">
         <div className="w-full py-10">
           <div className="w-full py-6 text-center space-y-4">

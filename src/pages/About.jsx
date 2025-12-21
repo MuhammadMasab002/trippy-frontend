@@ -1,13 +1,11 @@
 import React from "react";
+import Hero from "../components/Hero";
 
 const About = () => {
   return (
-    <div className="w-full min-h-screen py-16 px-6 mt-20">
-      <div className="max-w-6xl mx-auto">
-        <h1 className="text-5xl font-bold text-center text-black mb-16">
-          About Us
-        </h1>
-
+    <div className="w-full min-h-screen">
+      <Hero page="about" />
+      <div className="max-w-6xl mx-auto  py-16 px-6">
         {/* Our History Section */}
         <section className="mb-16">
           <h2 className="text-3xl font-bold text-black mb-6">Our History</h2>

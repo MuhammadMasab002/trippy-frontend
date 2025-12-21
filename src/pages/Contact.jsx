@@ -5,6 +5,7 @@ import CustomButton, {
 import CustomFormInput, {
   INPUT_TYPES,
 } from "../components/common/inputs/CustomFormInput";
+import Hero from "../components/Hero";
 
 const Contact = () => {
   const [formData, setFormData] = useState({
@@ -81,8 +82,9 @@ const Contact = () => {
   };
 
   return (
-    <div className="w-full min-h-screen grid grid-cols-1 mt-10">
-      <div className="flex items-center justify-center py-10 px-6">
+    <div className="w-full min-h-screen grid grid-cols-1">
+      <Hero page="contact" />
+      <div className="flex items-center justify-center py-10 px-6  mt-10">
         <div className="w-full max-w-md">
           <h2 className="text-4xl font-bold text-left text-black mb-8">
             Send a message to us
