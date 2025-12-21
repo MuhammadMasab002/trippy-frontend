@@ -4,6 +4,7 @@ import MainLayout from "./layouts/MainLayout";
 import SignIn from "./pages/SignIn";
 import SignUp from "./pages/SignUp";
 import NotFound from "./pages/NotFound";
+import Contact from "./pages/Contact";
 
 function App() {
   return (
@@ -12,6 +13,8 @@ function App() {
         <Route element={<MainLayout />}>
           <Route path="/" element={<Home />} />
 
+          <Route path="/contact" element={<Contact />} />
+          
           <Route path="/signin" element={<SignIn />} />
           <Route path="/signup" element={<SignUp />} />
 
